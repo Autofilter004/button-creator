@@ -275,11 +275,11 @@ async def about(client, message):
         ),
         reply_to_message_id=message.message_id
     )
-     await bot.send_photo(
+     await bot.send_object(
 
         chat_id=update.chat.id,
 
-        photo="https://telegra.ph/file/6824a00f2babc136862cd.jpg",
+        object="https://telegra.ph/file/6824a00f2babc136862cd.jpg",
 
         caption=Script.START_TEXT.format(
 
